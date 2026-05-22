@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainWindow">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="4" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="31" y="32" width="1592" height="1483"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="19086" class="javax.swing.JLabel" binding="datetimeLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font size="30"/>
+          <foreground color="-16777216"/>
+          <text value="date"/>
+        </properties>
+      </component>
+      <component id="fe8c1" class="javax.swing.JLabel" binding="logoLabel">
+        <constraints>
+          <grid row="0" column="8" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="25"/>
+          <foreground color="-1"/>
+          <icon value="media/logo_white_200.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <grid id="a9135" binding="videoPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <enabled value="true"/>
+          <foreground color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3d119" class="javax.swing.JLabel" binding="videoTitle">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font size="30"/>
+              <foreground color="-16777216"/>
+              <text value="Live video"/>
+            </properties>
+          </component>
+          <hspacer id="cf1ee">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <vspacer id="f8f1e">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="a15c" class="javax.swing.JLabel" binding="videoLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <icon value="media/no_video.jpg"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="5a34d" binding="sensorPanel" layout-manager="GridLayoutManager" row-count="10" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="2c323" class="javax.swing.JLabel" binding="labelTitleAlt">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2067968"/>
+              <font size="20"/>
+              <foreground color="-16739481"/>
+              <text value="Altitude (m):"/>
+            </properties>
+          </component>
+          <component id="f1946" class="javax.swing.JLabel" binding="labelAlt">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font size="20"/>
+              <foreground color="-16777216"/>
+              <text value="N/A"/>
+            </properties>
+          </component>
+          <component id="19d1a" class="javax.swing.JLabel" binding="labelTemp">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font size="20"/>
+              <foreground color="-16777216"/>
+              <text value="N/A"/>
+            </properties>
+          </component>
+          <component id="1641d" class="javax.swing.JLabel" binding="labelTitleTemp">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16723309"/>
+              <font size="20"/>
+              <foreground color="-16723309"/>
+              <text value="Temperature (°C):"/>
+            </properties>
+          </component>
+          <component id="cb4e2" class="javax.swing.JLabel" binding="labelTitlePres">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16711893"/>
+              <font size="20"/>
+              <foreground color="-16723309"/>
+              <text value="Pressure (hPa):"/>
+            </properties>
+          </component>
+          <component id="566a2" class="javax.swing.JLabel" binding="labelPress">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font size="20"/>
+              <foreground color="-16777216"/>
+              <text value="N/A"/>
+            </properties>
+          </component>
+          <component id="6a6a0" class="javax.swing.JLabel" binding="titleSensor">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font size="30"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="2"/>
+              <text value="Sensor readings"/>
+            </properties>
+          </component>
+          <component id="1cce7" class="javax.swing.JLabel" binding="titleHum">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-59713"/>
+              <enabled value="true"/>
+              <font size="20"/>
+              <foreground color="-16739481"/>
+              <horizontalAlignment value="4"/>
+              <horizontalTextPosition value="4"/>
+              <text value="Humidity (%):"/>
+            </properties>
+          </component>
+          <component id="8466e" class="javax.swing.JLabel" binding="labelHum">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font size="20"/>
+              <foreground color="-16777216"/>
+              <text value="N/A"/>
+            </properties>
+          </component>
+          <component id="924cf" class="javax.swing.JLabel" binding="titleGas">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-5570798"/>
+              <font size="20"/>
+              <foreground color="-16723309"/>
+              <text value="Gas (kOhm):"/>
+            </properties>
+          </component>
+          <component id="f9895" class="javax.swing.JLabel" binding="labelGas">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font size="20"/>
+              <foreground color="-16777216"/>
+              <text value="N/A"/>
+            </properties>
+          </component>
+          <component id="2bb8e" class="javax.swing.JLabel" binding="titlePosition">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font size="30"/>
+              <foreground color="-16777216"/>
+              <horizontalAlignment value="2"/>
+              <text value="GPS"/>
+            </properties>
+          </component>
+          <component id="c071e" class="javax.swing.JLabel" binding="labelLat">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font size="20"/>
+              <foreground color="-16777216"/>
+              <text value="Latitude"/>
+            </properties>
+          </component>
+          <component id="b24a1" class="javax.swing.JLabel" binding="labelLon">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font size="20"/>
+              <foreground color="-16777216"/>
+              <text value="Longitude"/>
+            </properties>
+          </component>
+          <component id="1fdd6" class="javax.swing.JLabel" binding="distanceTotal">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font size="20"/>
+              <foreground color="-16777216"/>
+              <text value="Distance traveled:"/>
+            </properties>
+          </component>
+          <component id="d7292" class="javax.swing.JLabel" binding="labelDistance">
+            <constraints>
+              <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <enabled value="true"/>
+              <font size="20"/>
+              <foreground color="-16777216"/>
+              <text value="0 m"/>
+            </properties>
+          </component>
+          <component id="ebc8c" class="javax.swing.JLabel" binding="deltaTitle">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font size="20"/>
+              <foreground color="-16777216"/>
+              <text value="Delta distance:"/>
+            </properties>
+          </component>
+          <component id="4ec0f" class="javax.swing.JLabel" binding="labelDelta">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font size="20"/>
+              <foreground color="-16777216"/>
+              <text value="0 m"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="5ca0d" binding="logPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <enabled value="true"/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d0a66" class="javax.swing.JLabel" binding="titleLogs">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font size="30"/>
+              <foreground color="-16777216"/>
+              <text value="System Logs:"/>
+            </properties>
+          </component>
+          <component id="6b11a" class="javax.swing.JTextArea" binding="syslogTextArea" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <editable value="false"/>
+              <font size="20"/>
+              <foreground color="-16777216"/>
+              <text value="No syslogs to display"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="230fd" binding="addonPanel" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <enabled value="true"/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d89f7" class="javax.swing.JButton" binding="graphBtn">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font size="15"/>
+              <text value="GRAPH DATA"/>
+            </properties>
+          </component>
+          <component id="6784" class="javax.swing.JButton" binding="startWritingBtn">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font size="15"/>
+              <text value="START WRITING"/>
+            </properties>
+          </component>
+          <component id="79854" class="javax.swing.JButton" binding="resetTravelBtn">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font size="15"/>
+              <text value="RESET TRAVEL"/>
+            </properties>
+          </component>
+          <component id="47a41" class="javax.swing.JLabel" binding="addonTitle">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <enabled value="true"/>
+              <font size="30"/>
+              <foreground color="-16777216"/>
+              <text value="Telemetry"/>
+            </properties>
+          </component>
+          <component id="74ed6" class="javax.swing.JButton" binding="stopWritingBtn">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <enabled value="false"/>
+              <font size="15"/>
+              <text value="STOP WRITING"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="4f6c8" class="javax.swing.JTextField" binding="inputIP">
+        <constraints>
+          <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="20"/>
+          <text value=""/>
+          <toolTipText value="Rover's IP addr"/>
+        </properties>
+      </component>
+      <component id="f6a78" class="javax.swing.JButton" binding="buttonIP">
+        <constraints>
+          <grid row="0" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16723309"/>
+          <font size="15"/>
+          <foreground color="-16777216"/>
+          <text value="CONNECT"/>
+        </properties>
+      </component>
+      <component id="9fdf" class="javax.swing.JButton" binding="btnRetryConect">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="15"/>
+          <foreground color="-16777216"/>
+          <text value="RESET"/>
+        </properties>
+      </component>
+      <component id="ee427" class="javax.swing.JLabel" binding="green_light">
+        <constraints>
+          <grid row="0" column="5" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="72"/>
+          <foreground color="-16711893"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="9094a" class="javax.swing.JLabel" binding="yellow_light">
+        <constraints>
+          <grid row="0" column="6" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="72"/>
+          <foreground color="-2629608"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="3e7e0" class="javax.swing.JLabel" binding="red_light">
+        <constraints>
+          <grid row="0" column="7" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="72"/>
+          <foreground color="-2097152"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="8ba59" class="javax.swing.JButton" binding="stop_btn">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2097152"/>
+          <font size="15"/>
+          <foreground color="-1"/>
+          <text value="STOP"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
